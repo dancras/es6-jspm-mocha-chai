@@ -1,0 +1,6 @@
+**/*.json
+
+jspm_packages/**
+node_modules/**
+
+config.js

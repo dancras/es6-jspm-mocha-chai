@@ -1,0 +1,23 @@
+{
+  "name": "es6-jspm-mocha-chai",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --delay test/main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.16.19",
+    "mocha": "^2.3.4"
+  },
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "chai": "npm:chai@^3.4.1",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
